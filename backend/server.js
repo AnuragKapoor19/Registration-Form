@@ -4,7 +4,7 @@ const dotenv = require("dotenv")
 const mongodb = require("./db")
 const cors = require("cors")
 dotenv.config()
-PORT = process.env.PORT
+PORT = process.env.PORT || 5000
 app.use(cors({
     origin:"http://localhost:3000"
 }))
