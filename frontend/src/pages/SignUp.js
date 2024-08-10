@@ -28,8 +28,8 @@ export default function SignUp() {
   }
 
   return (
-    <div className="w-100 d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
-      <div className="bg-dark p-5 d-flex flex-column align-items-center" style={{ borderRadius: "20px" }}>
+    <div className="w-100 d-flex justify-content-center align-items-center background" style={{ height: "100vh"}}>
+      <div className="bg-dark p-5 d-flex flex-column align-items-center" style={{ borderRadius: "20px" ,border: "2px solid white"}}>
         <h3 className='text-light mb-4'>Create Account</h3>
         <form className="text-light" onSubmit={handleSubmit}>
         <div className="mb-3">
